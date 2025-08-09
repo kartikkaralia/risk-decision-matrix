@@ -1,0 +1,84 @@
+[
+    {
+        "category": "Data Sensitivity",
+        "question": "What type of data will this service handle?",
+        "options": [
+            { "text": "Public or non-sensitive data", "score": 1 },
+            { "text": "Internal business data", "score": 3 },
+            { "text": "Personally Identifiable Information (PII)", "score": 5 },
+            { "text": "Sensitive regulated data (HIPAA, PCI, etc.)", "score": 7 }
+        ]
+    },
+    {
+        "category": "Business Criticality",
+        "question": "How critical is this service to your operations?",
+        "options": [
+            { "text": "Non-critical / convenience", "score": 1 },
+            { "text": "Important but not business-stopping", "score": 3 },
+            { "text": "Business-critical", "score": 6 }
+        ]
+    },
+    {
+        "category": "Vendor Security Posture",
+        "question": "What is the vendor's known security posture?",
+        "options": [
+            { "text": "Well-established with strong certifications (SOC 2, ISO 27001)", "score": 1 },
+            { "text": "Some security policies but not fully certified", "score": 3 },
+            { "text": "Unknown or nothing for security", "score": 6 }
+        ]
+    },
+    {
+        "category": "Open Source Usage",
+        "question": "Does this involve any open-source or unmanaged components?",
+        "options": [
+            { "text": "No", "score": 0 },
+            { "text": "Yes, widely adopted and maintained", "score": 2 },
+            { "text": "Yes, small-scale or not maintained", "score": 5 }
+        ]
+    },
+    {
+        "category": "Internet Exposure",
+        "question": "What level of internet exposure will this service have?",
+        "options": [
+            { "text": "Only Internal", "score": 0 },
+            { "text": "Public-facing with authentication", "score": 3 },
+            { "text": "Fully public-facing", "score": 6 }
+        ]
+    },
+    {
+        "category": "Compliance Requirements",
+        "question": "Does this service need to meet specific compliance requirements?",
+        "options": [
+            { "text": "No special compliance needs", "score": 0 },
+            { "text": "Some internal policies", "score": 2 },
+            { "text": "Industry compliance (GDPR, HIPAA, PCI, FERPA, etc.)", "score": 5 }
+        ]
+    },
+    {
+        "category": "Incident Response",
+        "question": "Does the vendor have a documented incident response plan?",
+        "options": [
+            { "text": "Yes, tested annually", "score": 0 },
+            { "text": "Yes, but not regularly tested", "score": 2 },
+            { "text": "No documented plan", "score": 5 }
+        ]
+    },
+    {
+        "category": "Vendor Location",
+        "question": "Where is the vendor based?",
+        "options": [
+            { "text": "Same country, or region with strong privacy laws", "score": 0 },
+            { "text": "Trusted regions", "score": 2 },
+            { "text": "High-risk or unknown jurisdiction", "score": 5 }
+        ]
+    },
+    {
+        "category": "Contractual Protections",
+        "question": "Does the contract include security and data protection clauses?",
+        "options": [
+            { "text": "Yes, detailed clauses with penalties", "score": 0 },
+            { "text": "Some clauses but vague", "score": 2 },
+            { "text": "No security clauses", "score": 5 }
+        ]
+    }
+]
