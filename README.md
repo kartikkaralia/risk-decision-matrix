@@ -54,6 +54,7 @@ risk-decision-matrix
 ├── script.js             # JavaScript logic for loading questions and calculating risk
 ├── questions.json        # JSON file containing risk assessment questions and options
 ├── README.md             # This file
+├── LICENSE               # License file
 ```
 
 ---
